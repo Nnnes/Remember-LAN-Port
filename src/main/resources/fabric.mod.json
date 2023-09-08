@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "remember-lan-port",
+	"version": "${version}",
+	"name": "Remember LAN Port",
+	"description": "Remembers the last port used to Open to LAN.",
+	"authors": [
+		"Nnnes"
+	],
+	"contact": {
+		"homepage": "https://nnn.es/Remember-LAN-Port",
+		"issues": "https://github.com/Nnnes/Remember-LAN-Port/issues",
+		"sources": "https://github.com/Nnnes/Remember-LAN-Port"
+	},
+	"license": "Unlicense",
+	"icon": {
+		"96": "assets/remember-lan-port/icon96.png",
+		"128": "assets/remember-lan-port/icon128.png",
+		"384": "assets/remember-lan-port/icon384.png"
+	},
+	"environment": "client",
+	"mixins": [
+		"remember-lan-port.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17"
+	}
+}
